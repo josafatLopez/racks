@@ -1,13 +1,68 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #F6F6F6;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #484848;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: #4B9DB9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 2.5rem auto;
+}
+
+.flexContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.w20 {
+  width: 18%;
+}
+
+.flexReverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.verticalAlign {
+  display: flex;
+  vertical-align: text-bottom;
+}
+
+.roomItem {
+  height: 150px;
+  margin-bottom: 2rem;
+  background-color: #4B9DB9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+}
+
+.rackItem {
+  height: 150px;
+  margin-bottom: 2rem;
+  background-color: #949494;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
