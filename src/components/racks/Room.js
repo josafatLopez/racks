@@ -3,7 +3,7 @@ import RoomItem from './RoomItem'
 
 const Room = () => {
    const [rooms, setRooms] = useState([])
-   const url = 'https://josafatlopez.github.io/data/rolandi'
+   const url = 'https://josafatlopez.github.io/data/rooms'
    useEffect(() => {
       fetch(url)
          .then(res => res.json())
