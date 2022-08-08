@@ -1,0 +1,47 @@
+[
+   {
+      "rack": 1,
+      "idx": 1,
+      "pallets": [
+         { "id": 1, "idx": 1, "disponibility": "1", "num": 1, "name": "Pierna", "position": [1,1]},
+         { "id": 2, "idx": 2, "disponibility": "1", "num": 2, "name": "Muslo" },
+         { "id": 3, "idx": 3, "disponibility": "1", "num": 3, "name": "Jamón" }
+      ]
+   },
+   {
+      "rack": 2,
+      "idx": 2,
+      "pallets": [
+         { "id": 4, "idx": 1, "disponibility": "1", "num": 4, "name": "Tocino" },
+         { "id": 5, "idx": 2, "disponibility": "1", "num": 5, "name": "Panceta" },
+         { "id": 6, "idx": 3, "disponibility": "1", "num": 6, "name": "Jamón" }
+      ]
+   },
+   {
+      "rack": 3,
+      "idx": 3,
+      "pallets": [
+         { "id": 7, "idx": 1, "disponibility": "1", "num": 7, "name": "Pierna" },
+         { "id": 8, "idx": 2, "disponibility": "1", "num": 8, "name": "Panceta" },
+         { "id": 9, "idx": 3, "disponibility": "1", "num": 9, "name": "Lomo" }
+      ]
+   },
+   {
+      "rack": 4,
+      "idx": 4,
+      "pallets": [
+         { "id": 10, "idx": 1, "disponibility": "1", "num": 10, "name": "Lomo" },
+         { "id": 11, "idx": 2, "disponibility": "1", "num": 11, "name": "Panceta" },
+         { "id": 12, "idx": 3, "disponibility": "1", "num": 12, "name": "Jamón" }
+      ]
+   },
+   {
+      "rack": 5,
+      "idx": 5,
+      "pallets": [
+         { "id": 13, "idx": 1, "disponibility": "1", "num": 13, "name": "Pierna" },
+         { "id": 14, "idx": 2, "disponibility": "1", "num": 14, "name": "Panceta" },
+         { "id": 15, "idx": 3, "disponibility": "1", "num": 15, "name": "Lomo" }
+      ]
+   }
+]
