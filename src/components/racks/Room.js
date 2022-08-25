@@ -14,12 +14,19 @@ const Room = () => {
    return (
       <div className='container flexContainer'>
          {rooms.map((room) => (
-            <div className="flexReverse w20" key={room.room}>
+            <div className="flexReverse" key={room.room}>
                <RoomItem
                   room={room}
-               /> 
+               />
             </div>
          ))}
+         <div className="lateralOne">
+            <p className='verticalText'>Pasillo</p>
+         </div>
+         <div className="wall"></div>
+         <div className="lateralTwo">
+            <p className='verticalText'>Pasillo</p>
+         </div>
       </div>
    )
 }

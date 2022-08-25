@@ -1,22 +1,31 @@
 import React, { useState, useEffect } from 'react'
+import { useParams } from 'react-router-dom'
 
 const RackItem = ({ rack }) => {
   const [pallets, setPallets] = useState([])
-  const urlApi = 'https://josafatlopez.github.io/data/api'
+  const { room, rackNum } = useParams()
+  const urlApi = `https://api.owltracking.com.mx/norson/position/${room}/${rackNum}`
   useEffect(() => {
       fetch(urlApi)
       .then(res => res.json())
       .then(data => setPallets(data))
       .catch(err => console.log(err))
     }, [])
-    console.log(pallets.apiposition)
+    console.log(pallets)
   return (
-    //<div className='rackItem' style={id === "0" ? {background: "red"} : {background: "green"}} >{idx}</div>
-    //<div className='rackItem' >{rack.pallets.name} {rack.idx} <br />{rack.pallets.num}</div>
     <>
-      {rack.pallets.map((pallet) => (
-        <p className='rackItem' style={JSON.stringify(pallet.position) === JSON.stringify(pallets.apiposition) ? {background: 'red'} : {background: 'green'}} key={pallet.id}>{pallet.name} {pallet.num} <br />{pallet.idx} - {pallet.id}</p>
-      ))}
+      {rack.pallets?.ID==undefined ? rack.pallets.map((pallet) => (<div className="palletContainer" key={pallet.id}>
+        <div className="pallet" style={JSON.stringify(pallet.position) === JSON.stringify(pallets.position) ? {background: 'red'} : {background: 'green'}}>
+          <p className="palletName">{pallet.name}</p>
+          <span className="palletPosition">{pallet.position}</span>
+        </div>
+        <div className="palletFloor">
+          <span className="palletDivision"></span>
+          <span className="palletDivision"></span>
+          <span className="palletDivision"></span>
+        </div>
+      </div>
+      )) : <div></div>}
     </>
   )
 }

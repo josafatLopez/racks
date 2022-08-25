@@ -14,7 +14,7 @@ const Rack = () => {
   return (
     <div className='container flexContainer'>
       {racks.map((rack) => (
-        <div className="flexReverse w20" key={rack.idx}>
+        <div className="flexReverse" key={rack.idx}>
           <RackItem
             rack={rack}
           />

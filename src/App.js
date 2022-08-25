@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Room />} />
-        <Route path="/rack" element={<Rack />} />
+        <Route path="/:room/:rackNum" element={<Rack />} />
       </Routes>
     </BrowserRouter>
   );
