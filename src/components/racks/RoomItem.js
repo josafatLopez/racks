@@ -6,7 +6,7 @@ const RoomItem = ({ room }) => {
   return (
     <>
       {room.frontpallets.map((pallet) => (
-        <Link className='roomItem' to={`/${Array.from(pallet.name)[0]}/${Array.from(pallet.name)[1]}`} key={pallet.name}>{pallet.name}</Link>
+        <Link className={pallet.name === 'Pasillo' ? 'roomPasillo' : 'roomItem'} to={`/${Array.from(pallet.name)[0]}/${Array.from(pallet.name)[1]}`} key={pallet.name}>{pallet.name}</Link>
       ))}
     </>
   )

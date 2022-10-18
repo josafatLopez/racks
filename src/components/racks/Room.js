@@ -10,6 +10,7 @@ const Room = () => {
          .then(data => setRooms(data))
          .catch(err => console.log(err))
    }, [])
+   
    console.log(rooms)
    return (
       <div className='container flexContainer'>

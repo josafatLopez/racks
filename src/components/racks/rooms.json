@@ -1,0 +1,394 @@
+[
+   {
+      "room": "BL",
+      "frontpallets": [
+         {
+            "name": "AF1"
+         },
+         {
+            "name": "AF2"
+         },
+         {
+            "name": "AF3"
+         },
+         {
+            "name": "AF4"
+         },
+         {
+            "name": "Pasillo"
+         },
+         {
+            "name": "AC6"
+         },
+         {
+            "name": "AC7"
+         },
+         {
+            "name": "AC8"
+         },
+         {
+            "name": "AC9"
+         },
+         {
+            "name": "AC10"
+         },
+         {
+            "name": "AC11"
+         },
+         {
+            "name": "AC12"
+         },
+         {
+            "name": "AC13"
+         },
+         {
+            "name": "AC14"
+         },
+         {
+            "name": "AC15"
+         },
+         {
+            "name": "Pasillo"
+         },
+         {
+            "name": "B1"
+         },
+         {
+            "name": "B2"
+         },
+         {
+            "name": "B3"
+         },
+         {
+            "name": "B4"
+         },
+         {
+            "name": "B5"
+         },
+         {
+            "name": "B6"
+         },
+         {
+            "name": "B7"
+         },
+         {
+            "name": "B8"
+         },
+         {
+            "name": "B9"
+         },
+         {
+            "name": "B10"
+         },
+         {
+            "name": "B11"
+         },
+         {
+            "name": "B12"
+         },
+         {
+            "name": "B13"
+         },
+         {
+            "name": "B14"
+         },
+         {
+            "name": "B15"
+         }
+      ]
+   },
+   {
+      "room": "BR",
+      "frontpallets": [
+         {
+            "name": "AF30"
+         },
+         {
+            "name": "AF29"
+         },
+         {
+            "name": "AF28"
+         },
+         {
+            "name": "AF27"
+         },
+         {
+            "name": "Pasillo"
+         },
+         {
+            "name": "AC25"
+         },
+         {
+            "name": "AC24"
+         },
+         {
+            "name": "AC23"
+         },
+         {
+            "name": "AC22"
+         },
+         {
+            "name": "AC21"
+         },
+         {
+            "name": "AC20"
+         },
+         {
+            "name": "AC19"
+         },
+         {
+            "name": "AC18"
+         },
+         {
+            "name": "AC17"
+         },
+         {
+            "name": "AC16"
+         },
+         {
+            "name": "Pasillo"
+         },
+         {
+            "name": "B30"
+         },
+         {
+            "name": "B29"
+         },
+         {
+            "name": "B28"
+         },
+         {
+            "name": "B27"
+         },
+         {
+            "name": "B26"
+         },
+         {
+            "name": "B25"
+         },
+         {
+            "name": "B24"
+         },
+         {
+            "name": "B23"
+         },
+         {
+            "name": "B22"
+         },
+         {
+            "name": "B21"
+         },
+         {
+            "name": "B20"
+         },
+         {
+            "name": "B19"
+         },
+         {
+            "name": "B18"
+         },
+         {
+            "name": "B17"
+         },
+         {
+            "name": "B16"
+         }
+      ]
+   },
+   {
+      "room": "DL",
+      "frontpallets": [
+         {
+            "name": "C16"
+         },
+         {
+            "name": "C17"
+         },
+         {
+            "name": "C18"
+         },
+         {
+            "name": "C19"
+         },
+         {
+            "name": "C20"
+         },
+         {
+            "name": "C21"
+         },
+         {
+            "name": "C22"
+         },
+         {
+            "name": "C23"
+         },
+         {
+            "name": "C24"
+         },
+         {
+            "name": "C25"
+         },
+         {
+            "name": "C26"
+         },
+         {
+            "name": "C27"
+         },
+         {
+            "name": "C28"
+         },
+         {
+            "name": "C29"
+         },
+         {
+            "name": "C30"
+         },
+         {
+            "name": "Pasillo"
+         },
+         {
+            "name": "D16"
+         },
+         {
+            "name": "D17"
+         },
+         {
+            "name": "D18"
+         },
+         {
+            "name": "D19"
+         },
+         {
+            "name": "D20"
+         },
+         {
+            "name": "D21"
+         },
+         {
+            "name": "D22"
+         },
+         {
+            "name": "D23"
+         },
+         {
+            "name": "D24"
+         },
+         {
+            "name": "D25"
+         },
+         {
+            "name": "D26"
+         },
+         {
+            "name": "D27"
+         },
+         {
+            "name": "D28"
+         },
+         {
+            "name": "D29"
+         },
+         {
+            "name": "D30"
+         }
+      ]
+   },
+   {
+      "room": "DR",
+      "frontpallets": [
+         {
+            "name": "C1"
+         },
+         {
+            "name": "C2"
+         },
+         {
+            "name": "C3"
+         },
+         {
+            "name": "C4"
+         },
+         {
+            "name": "C5"
+         },
+         {
+            "name": "C6"
+         },
+         {
+            "name": "C7"
+         },
+         {
+            "name": "C8"
+         },
+         {
+            "name": "C9"
+         },
+         {
+            "name": "C10"
+         },
+         {
+            "name": "C11"
+         },
+         {
+            "name": "C12"
+         },
+         {
+            "name": "C13"
+         },
+         {
+            "name": "C14"
+         },
+         {
+            "name": "C15"
+         },
+         {
+            "name": "Pasillo"
+         },
+         {
+            "name": "D1"
+         },
+         {
+            "name": "D2"
+         },
+         {
+            "name": "D3"
+         },
+         {
+            "name": "D4"
+         },
+         {
+            "name": "D5"
+         },
+         {
+            "name": "D6"
+         },
+         {
+            "name": "D7"
+         },
+         {
+            "name": "D8"
+         },
+         {
+            "name": "D9"
+         },
+         {
+            "name": "D10"
+         },
+         {
+            "name": "D11"
+         },
+         {
+            "name": "D12"
+         },
+         {
+            "name": "D13"
+         },
+         {
+            "name": "D14"
+         },
+         {
+            "name": "D15"
+         }
+      ]
+   }
+]
